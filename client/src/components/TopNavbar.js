@@ -9,9 +9,11 @@ import SearchBar from './SearchBar'
 const Navbar = styled.div`
     display: flex;
     align-items: center;
+    max-width: 900px;
     width: 100%;
     height: 75px;
     background-color: white;
+    
 `
 
 export default function TopNavbar(props){
@@ -20,8 +22,8 @@ export default function TopNavbar(props){
           <Nav>
             <Logo>{props.width > 500 ? 'Medium' : 'M'}</Logo>
             <SearchBar />
-            {props.width > 768 ? <Link navlink>Become a member</Link> : '' }
-            {props.width > 768 ? <Link primary navlink>Sign In</Link> : '' }
+            {props.width > 768 ? <Link navlink fontSize=".9em">Become a member</Link> : '' }
+            {props.width > 768 ? <Link primary navlink fontSize=".9em">Sign In</Link> : '' }
             <Button navbutton>Get Started</Button>
           </Nav>
       </Navbar>

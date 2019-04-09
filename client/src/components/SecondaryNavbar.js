@@ -8,6 +8,7 @@ const SecondaryNav = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+		max-width: 900px;
     height: 45px;
     overflow-x: hidden;
 `

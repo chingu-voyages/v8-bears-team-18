@@ -9,7 +9,7 @@ const SearchContainer = styled.div`
   input[type="text"] {
     border: none;
     width: 70%
-    font-size: 1em;
+    font-size: .9em;
     padding: .3em;
     &:focus {
         outline: none;

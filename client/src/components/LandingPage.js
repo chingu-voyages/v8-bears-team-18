@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import TopNavbar from './TopNavbar'
-import SecondaryNavbar from './SecondaryNavbar'
 import styled from 'styled-components'
+import TopNavbar from "./TopNavbar";
+import SecondaryNavbar from "./SecondaryNavbar";
+import FeaturedPreviews from './FeaturedPreviews'
 
 const PageContainer = styled.div`
   max-width: 1024px;
@@ -37,6 +38,7 @@ export default class LandingPage extends Component {
       <PageContainer>
         <TopNavbar width={this.state.width}/>
         <SecondaryNavbar width={this.state.width}/>
+        <FeaturedPreviews />
       </PageContainer>
     );
   }

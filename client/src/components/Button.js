@@ -12,7 +12,7 @@ const Button = styled.button`
     background-color: ${props => (props.primary ? primary : secondary)};
     color: ${props => (props.primary ? secondary : primary)};
     border-radius: 3px;
-    font-size: 1em;
+    font-size: .9em;
     cursor: pointer;
     margin-left: ${props => props.navbutton ? '10px' : 0}
     :hover {
